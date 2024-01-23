@@ -1,0 +1,153 @@
+
+  
+  
+  #root {
+
+  margin: 0 auto;
+
+  text-align: center;
+
+
+  /* Variables */
+  --red: #B30000;
+  --black: #2E2E2E;
+  --orange:#EB992F;
+  --brown:#8B2B08;
+  --white:#F9F9F9;
+  --blue:#371FAE;
+--gray:#636363;
+
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+ 
+ 
+
+}
+html{
+ width: 100%;
+}
+
+
+
+ul{
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+
+li{
+  list-style-type: none;
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+}
+
+a {
+  font-weight: 500;
+  color: #8B2B08;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #EB992F;
+  border-color: var(--brown);
+  transition: 0.3s;
+}
+
+h1 {color: var(--red);
+  font-size: 3.2rem;
+  line-height: 3.2;
+  font-weight: 500;
+}
+h2 {color: var(--red);
+  font-size: 2.4rem;
+  line-height: 2.4;
+  font-weight: 500;
+}
+h3 {color: var(--black);
+  font-size: 2rem;
+  line-height: 2;
+  font-weight: 400;
+
+}
+h4 {color: var(--red);
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+p{
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+ 
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.grid{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.container{
+display: flex;
+
+
+}
+
+/* Media Q */
+@media (min-width: 1200px) {
+  /* Estilos para pantallas extra grandes */
+}
+
+@media (max-width: 1200px) {
+  /* Estilos para pantallas grandes */
+}
+
+@media (max-width: 992px) {
+  /* Estilos para pantallas medianas */
+}
+
+@media  (max-width: 576px) {
+  /* Estilos para pantallas medianas */
+}
+
+
+@media  (max-width: 450px) {
+  /* Estilos para pantallas medianas */
+}
+
+
+
+

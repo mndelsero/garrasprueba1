@@ -1,0 +1,11 @@
+.carousel{
+    padding-inline: 3rem;
+    padding-block: 1.5rem;
+    background-color: var(--black);
+}
+
+.carousel-img{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 0.5rem;
+}
