@@ -22,7 +22,7 @@ function App() {
 
 
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/garrasprueba1">
 
     <Header/>
  
