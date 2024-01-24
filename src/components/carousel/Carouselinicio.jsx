@@ -1,24 +1,27 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import "./carousel.css"
+import imagencarousel1 from "/src/assets/evento viaje.jpeg"
+import imagencarousel2 from "/src/assets/evento-viaje2.jpeg"
+import imagencarousel3 from "/src/assets/fotograduado.jpeg"
 const Carouselinicio = () => {
   return (
     <div>
       <Carousel className='carousel'>
       <Carousel.Item>
-       <img src="/src/assets/evento viaje.jpeg" alt="" className='carousel-img'/>
+       <img src={imagencarousel1} alt="" className='carousel-img'/>
         <Carousel.Caption>
           
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-       <img src="/src/assets/evento-viaje.jpeg" alt="" className='carousel-img'/>
+       <img src={imagencarousel2} alt="" className='carousel-img'/>
         <Carousel.Caption>
           
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src="/src/assets/foto graduado.jpeg" alt=""className='carouse-img' />
+        <img src={imagencarousel3} alt=""className='carousel-img' />
         <Carousel.Caption>
          
         </Carousel.Caption>
