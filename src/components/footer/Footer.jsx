@@ -1,6 +1,7 @@
 import React from 'react'
 import "./footer.css"
 import { Link } from 'react-router-dom'
+import logo from "/src/assets/logofondonegro.jpeg"
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
 
 
       <div className='logo-foot'>
-        <Link to="/" className='logo-link-foot'><img src="src\assets\logofondonegro.jpeg" alt="logo" className='logo-img-foot' /></Link>
+        <Link to="/" className='logo-link-foot'><img src={logo} alt="logo" className='logo-img-foot' /></Link>
       </div>
 
 
