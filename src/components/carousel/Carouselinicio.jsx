@@ -18,7 +18,7 @@ const Carouselinicio = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src="src\assets\foto graduado.jpeg" alt=""className='carousel-img' />
+        <img src="src\assets\foto graduado.jpeg" alt=""className='carouse-img' />
         <Carousel.Caption>
          
         </Carousel.Caption>
